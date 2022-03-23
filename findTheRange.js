@@ -5,7 +5,7 @@ let array = [28, 43, -12, 30, 4, 0, -36]
 let min = array[0];
 let max = array[0];
 
-for (i = 0; i < array.length - 1; i++) {
+for (i = 0; i < array.length; i++) {
     if (min > array[i]) {
         min = array[i];
     }   else if (max < array[i])
